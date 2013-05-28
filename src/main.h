@@ -124,7 +124,7 @@ const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfSta
 void BitcoinMiner(CWallet *pwallet, bool fProofOfStake);
 void ResendWalletTransactions();
 
-// yacoin: calculate Nfactor using timestamp
+// janecoin: calculate Nfactor using timestamp
 unsigned char GetNfactor(int64 nTimestamp);
 
 

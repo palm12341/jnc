@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = yacoin-qt
+TARGET = janecoin-qt
 VERSION = 0.7.2
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE SCRYPT_CHACHA SCRYPT_KECCAK512
@@ -276,7 +276,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = yacoin-qt_test
+TARGET = janecoin-qt_test
 DEFINES += BITCOIN_QT_TEST
 }
 
